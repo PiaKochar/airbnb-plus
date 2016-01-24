@@ -1,0 +1,17 @@
+{
+  "name": "Get pages source",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get pages source from a popup",
+  "browser_action": {
+    "default_icon": "icon2.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    	"declarativeContent",
+    	"activeTab",
+        "tabs",
+        "<all_urls>",
+        "https://maps.googleapis.com/*"
+    ]
+}
